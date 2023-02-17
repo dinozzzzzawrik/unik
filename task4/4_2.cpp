@@ -22,7 +22,7 @@ int main() {
         // Перевірка типу трикутника за кутами
         if (cosA > 0 && cosB > 0 && cosC > 0) {
             cout << "Трикутник є гострокутним" << endl;
-        } else if (cosA == 0  cosB == 0  cosC == 0) {
+        } else if (cosA == 0 || cosB == 0 || cosC == 0) {
             cout << "Трикутник є прямокутним" << endl;
         } else {
             cout << "Трикутник є тупокутним" << endl;
